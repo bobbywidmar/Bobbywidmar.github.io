@@ -15,6 +15,22 @@
                 <caption>
                 Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
                 </caption>
+                <thead>
+                    <tr>
+                        <td colspan="2"></td>
+                        <th scope="col">Name</th>
+                        <th scope="col">Mass (10^24kg)</th>
+                        <th scope="col">Diameter (km)</th>
+                        <th scope="col">Density (kg/m^3></th>
+                        <th scope="col">Gravity (m/s^2)</th>
+                        <th scope="col">Length of day (hours)</th>
+                        <th scope="col">Distance from sun (10^6km)</th>
+                        <th scope="col">Mean temperature (C)</th>
+                        <th scope="col">Number of moons</th>
+                        <th scope="col">Notes</th>
+                        <th scope="col">Images</th>
+                    </tr>
+                </thead>
                 <colgroup>
                     <col>
                     <col>
@@ -33,10 +49,58 @@
                     <tr></tr>
                 </thead>
                 <tbody>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
+                    <tr>
+                    <th colspan="2" rowspan="4" scope="rowgroup">Terrestial planets</th>
+                        <th scope="row">Mercury</th>
+                        <td>0.330</td>
+                        <td>4,879</td>
+                        <td>5427</td>
+                        <td>3.7</td>
+                        <td>4222.6</td>
+                        <td>57.9</td>
+                        <td>167</td>
+                        <td>0</td>
+                        <td>Closest to the Sun</td>
+                        <td><img src="images/mercury.jpg"/></td>
+                    </tr>            
+                    <tr>
+                    <th scope="row">Venus</th>
+                        <td>4.87</td>
+                        <td>12,104</td>
+                        <td>5243</td>
+                        <td>8.9</td>
+                        <td>2802.0</td>
+                        <td>108.2</td>
+                        <td>464</td>
+                        <td>0</td>
+                        <td><img src="images/venus.jpg"/></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Earth</th>
+                        <td>5.97</td>
+                        <td>12,756</td>
+                        <td>5514</td>
+                        <td>9.8</td>
+                        <td>24.0</td>
+                        <td>149.6</td>
+                        <td>15</td>
+                        <td>1</td>
+                        <td>Our world</td>
+                        <td><img src="images/earth.png"/></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Mars</th>
+                        <td>0.642</td>
+                        <td>6,792</td>
+                        <td>3933</td>
+                        <td>3.7</td>
+                        <td>24.7</td>
+                        <td>227.9</td>
+                        <td>65</td>
+                        <td>2</td>
+                        <td>The red planet</td>
+                        <td><img src="images/mars.jpg"/></td>
+                    </tr>
                     <tr></tr>
                     <tr></tr>
                     <tr></tr>
@@ -45,13 +109,5 @@
                 </tbody>
             </table>
         </main>
-        
-                <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
-                    
-                <!-- The table head element should be the third child of the table element; it will wrap the code and content to define a row of column headers. -->    
-                
-                <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
-                    
-                <!-- Please note that you do NOT need to add a table footer for this assignment. -->
     </body>
 </html>
