@@ -65,28 +65,40 @@ h1 {
     text-align:center;
 }
 
-h2 {
+h2 {text-transform: uppercase;
     font-size: 48pxrem;
     margin: 0;
+    color:darkred;
+    text-shadow: .09375rem .09375rem .09375rem #000;
     letter-spacing: 4pxrem;
+    font-family: 'Alfa Slab One', Garamond, serif;
     font-weight: normal;
 }
 
-h3 {
+h3 {text-transform: uppercase;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    font-family: 'Alpha Slab One', Garamond, serif;
     font-size: 32pxrem;
     font-weight: normal;
     text-shadow: none;
     background-color: black;
 }
 
-h4 {
+h4 {text-transform: uppercase;
+    margin: 0;
+    color:darkred;
+    font-family: 'Alpha Slab One', Garamond, serif;
     font-size: 32pxrem;
     letter-spacing: 4pxrem;
     padding-bottom: 18pxrem;
     font-weight: normal;
 }
 
-h5 {
+h5 {text-transform: uppercase;
+    color:darkred;
+    font-family: 'Alpha Slab One', Garamond, serif;
     font-size: 16pxrem;
     margin-top: 4pxrem;
     padding-top: 8pxrem;
