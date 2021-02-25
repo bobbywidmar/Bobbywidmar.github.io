@@ -65,15 +65,80 @@ h1 {
     text-align:center;
 }
 
+h2 {
+    font-size:48pxrem;
+    letter-spacing:4pxrem;
+    font-weight:normal;
+}
+
+h3 {
+    font-size:32pxrem;
+    font-weight:normal;
+    text-shadow:none;
+    background-color:black;
+}
+
+h4 {
+    font-size:32pxrem;
+    letter-spacing:4pxrem;
+    padding-bottom:18pxrem;
+    font-weight:normal;
+}
+
+h5 {
+    font-size:16pxrem;
+    margin-top:4pxrem;
+    padding-top:8pxrem;
+    padding-bottom:8pxrem;
+    padding-left:8pxrem;
+    padding-right:8pxrem;
+    font-weight:normal;
+}
+
 
 /* Section & Paragraph */
 
+section {
+    margin-top:8pxrem;
+}
+
+p {
+    margin-top:16pxrem;
+    margin-bottom:16pxrem;
+    margin-right:auto;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:16pxrem;
+    padding-right:16pxrem;
+    width:90%;
+    text-align:left;
+}
 
 
 /* Image & Figure */
 
+img {
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+    margin-right:auto;
+    max-width:800pxrem;
+}
+
+figure {
+    margin-bottom:32pxrem;
+}
+
+figcaption {
+    padding-top:8pxrem;
+    text-align:right;
+}
 
 
 /* Footer */
 
-
+footer {
+    width:32pxrem;
+    border-style:solid;
+    color:#333;
+}
