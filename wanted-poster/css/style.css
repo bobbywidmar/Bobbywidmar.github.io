@@ -156,6 +156,6 @@ figcaption {
 
 footer {
     width: 32pxrem;
-    border-style: solid;
+    font-style: solid;
     color: #333;
 }
