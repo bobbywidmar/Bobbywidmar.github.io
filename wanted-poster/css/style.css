@@ -116,7 +116,7 @@ h5 {text-transform: uppercase;
 /* Section & Paragraph */
 
 section {
-    margin-top: 8pxrem;
+    margin-top: 0.5rem;
 }
 
 p {
@@ -128,7 +128,7 @@ p {
     padding-left: 1rem;
     padding-right: 1rem;
     width: 90%;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -139,7 +139,7 @@ img {
     margin-top: 0;
     margin-bottom: 0;
     margin-right: auto;
-    max-width: 50rem;
+    max-width: 25rem;
 }
 
 figure {
