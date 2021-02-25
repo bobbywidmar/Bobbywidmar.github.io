@@ -66,8 +66,8 @@ h1 {
 }
 
 h2 {text-transform: uppercase;
-    font-size: 48pxrem;
-    letter-spacing: 4pxrem;
+    font-size: 3rem;
+    letter-spacing: .25rem;
     margin: 0;
     color:darkred;
     text-shadow: .09375rem .09375rem .09375rem #000;
@@ -81,7 +81,7 @@ h3 {text-transform: uppercase;
     letter-spacing: .5rem;
     color:darkred;
     font-family: 'Alpha Slab One', Garamond, serif;
-    font-size: 32pxrem;
+    font-size: 2rem;
     font-weight: normal;
     text-shadow: none;
     color: black;
@@ -92,9 +92,9 @@ h4 {text-transform: uppercase;
     margin: 0;
     color:darkred;
     font-family: 'Alpha Slab One', Garamond, serif;
-    font-size: 32pxrem;
-    letter-spacing: 4pxrem;
-    padding-bottom: 18pxrem;
+    font-size: 2rem;
+    letter-spacing: .25rem;
+    padding-bottom: 1.125rem;
     font-weight: normal;
     text-align: center;
 }
@@ -102,12 +102,12 @@ h4 {text-transform: uppercase;
 h5 {text-transform: uppercase;
     color:darkred;
     font-family: 'Alpha Slab One', Garamond, serif;
-    font-size: 16pxrem;
-    margin-top: 4pxrem;
-    padding-top: 8pxrem;
-    padding-bottom: 8pxrem;
-    padding-left: 8pxrem;
-    padding-right: 8pxrem;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     font-weight: normal;
     text-align: center;
 }
@@ -120,13 +120,13 @@ section {
 }
 
 p {
-    margin-top: 16pxrem;
-    margin-bottom: 16pxrem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-right: auto;
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 16pxrem;
-    padding-right: 16pxrem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     width: 90%;
     text-align: left;
 }
@@ -139,15 +139,15 @@ img {
     margin-top: 0;
     margin-bottom: 0;
     margin-right: auto;
-    max-width: 800pxrem;
+    max-width: 50rem;
 }
 
 figure {
-    margin-bottom: 32pxrem;
+    margin-bottom: 2rem;
 }
 
 figcaption {
-    padding-top: 8pxrem;
+    padding-top: 0.5rem;
     text-align: right;
 }
 
@@ -155,7 +155,7 @@ figcaption {
 /* Footer */
 
 footer {
-    width: 32pxrem;
+    width: 2rem;
     font-style: solid;
     color: #333;
 }
