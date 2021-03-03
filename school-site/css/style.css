@@ -51,14 +51,14 @@ main {
 
 @font-face {
     font-family: 'josefinslab';
-    src: url("ottemanc.github.io/fonts/josefinslab-regular.ttf");
+    src: url(../fonts/josefinslab-regular.ttf)format=('truetype');
     font-weight:normal;
     font-style:normal;
      
 }
 @font-face {
-    font-family: 'monsterrat';
-    src: url("ottemanc.github.io/fonts/monsterrat-regular.tff");
+    font-family: 'montserrat';
+    src: url(../fonts/montserrat-regular.ttf); /*format=('truetype'); Not Working */
     font-weight:normal;
     font-style:normal;
 }
@@ -67,7 +67,7 @@ main {
 /* Tyography Styles */
 
 html {
-    font-family: monsterrat;
+    font-family: 'montserrat';
 }
 
 h1 {
